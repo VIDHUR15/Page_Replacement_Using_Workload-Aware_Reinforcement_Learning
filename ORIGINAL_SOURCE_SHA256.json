@@ -1,0 +1,11 @@
+{
+  "page_replacement/lecar.py": "794b3ca357bd064fcc3b4434abf6731c9ed8c86e9a4144af80fd83ef65ac4884",
+  "page_replacement/rl_agent.py": "c3ba7fe240b6427e40b056358ece313aa20b3fd952455ee0331bfc748a58cd93",
+  "page_replacement/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "page_replacement/algorithms.py": "6f7febb5a70cc467b90d607336be798014bb2b296d512f26b8279e1db449af5c",
+  "page_replacement/adaptive_simulator.py": "edcbd13c285b101d0940a0ba51fc3273aabc489176fbbd703c9082de5fd67a3e",
+  "page_replacement/features.py": "66d27b4b240f434d5ded1d36e5112046d5ae09c198035db72d1385bf2bb9d8e8",
+  "page_replacement/workloads.py": "3731b36cc8b6dda9703703ea238b47b4b1a3463b79c78f5addc50051ffac0062",
+  "gui.py": "296f97751aa842b1af676e58648cde5d2ac537efb27e262cbbba7298c9bd769a",
+  "evaluate.py": "2c7f42cb3b1bc0441ef9e7614d696e2659b1769a65bdf15d4b889862db9e6ffc"
+}

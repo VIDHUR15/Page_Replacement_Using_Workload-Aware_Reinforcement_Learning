@@ -1,0 +1,81 @@
+workload,capacity,policy,comparator,trials,fault_rate_reduction_pp_mean,fault_rate_reduction_pp_std,wins,ties,losses
+locality,20,RL-FixedCommit-20,Best-fixed (hindsight),1,-17.6,,0,0,1
+locality,20,RL-FixedCommit-20,FIFO,1,5.733333333333333,,1,0,0
+locality,20,RL-FixedCommit-20,LFU,1,-17.6,,0,0,1
+locality,20,RL-FixedCommit-20,LRU,1,-0.16666666666666666,,0,0,1
+locality,20,RL-FixedCommit-20,LeCaR-inspired,1,-5.033333333333333,,0,0,1
+locality,20,RL-FixedCommit-20,MRU,1,35.53333333333333,,1,0,0
+locality,20,RL-FixedCommit-20,OPT,1,-21.533333333333335,,0,0,1
+locality,20,RL-FixedCommit-20,RL-Windowed,1,-0.23333333333333334,,0,0,1
+locality,20,RL-Windowed,Best-fixed (hindsight),1,-17.366666666666667,,0,0,1
+locality,20,RL-Windowed,FIFO,1,5.966666666666667,,1,0,0
+locality,20,RL-Windowed,LFU,1,-17.366666666666667,,0,0,1
+locality,20,RL-Windowed,LRU,1,0.06666666666666667,,1,0,0
+locality,20,RL-Windowed,LeCaR-inspired,1,-4.8,,0,0,1
+locality,20,RL-Windowed,MRU,1,35.766666666666666,,1,0,0
+locality,20,RL-Windowed,OPT,1,-21.3,,0,0,1
+locality,20,RL-Windowed,RL-FixedCommit-20,1,0.23333333333333334,,1,0,0
+looping,20,RL-FixedCommit-20,Best-fixed (hindsight),1,0.0,,0,1,0
+looping,20,RL-FixedCommit-20,FIFO,1,58.9,,1,0,0
+looping,20,RL-FixedCommit-20,LFU,1,58.9,,1,0,0
+looping,20,RL-FixedCommit-20,LRU,1,58.9,,1,0,0
+looping,20,RL-FixedCommit-20,LeCaR-inspired,1,58.9,,1,0,0
+looping,20,RL-FixedCommit-20,MRU,1,0.0,,0,1,0
+looping,20,RL-FixedCommit-20,OPT,1,0.0,,0,1,0
+looping,20,RL-FixedCommit-20,RL-Windowed,1,0.6333333333333333,,1,0,0
+looping,20,RL-Windowed,Best-fixed (hindsight),1,-0.6333333333333333,,0,0,1
+looping,20,RL-Windowed,FIFO,1,58.266666666666666,,1,0,0
+looping,20,RL-Windowed,LFU,1,58.266666666666666,,1,0,0
+looping,20,RL-Windowed,LRU,1,58.266666666666666,,1,0,0
+looping,20,RL-Windowed,LeCaR-inspired,1,58.266666666666666,,1,0,0
+looping,20,RL-Windowed,MRU,1,-0.6333333333333333,,0,0,1
+looping,20,RL-Windowed,OPT,1,-0.6333333333333333,,0,0,1
+looping,20,RL-Windowed,RL-FixedCommit-20,1,-0.6333333333333333,,0,0,1
+mixed,20,RL-FixedCommit-20,Best-fixed (hindsight),1,14.633333333333333,,1,0,0
+mixed,20,RL-FixedCommit-20,FIFO,1,18.6,,1,0,0
+mixed,20,RL-FixedCommit-20,LFU,1,14.633333333333333,,1,0,0
+mixed,20,RL-FixedCommit-20,LRU,1,16.566666666666666,,1,0,0
+mixed,20,RL-FixedCommit-20,LeCaR-inspired,1,15.766666666666667,,1,0,0
+mixed,20,RL-FixedCommit-20,MRU,1,18.7,,1,0,0
+mixed,20,RL-FixedCommit-20,OPT,1,-18.6,,0,0,1
+mixed,20,RL-FixedCommit-20,RL-Windowed,1,13.133333333333333,,1,0,0
+mixed,20,RL-Windowed,Best-fixed (hindsight),1,1.5,,1,0,0
+mixed,20,RL-Windowed,FIFO,1,5.466666666666667,,1,0,0
+mixed,20,RL-Windowed,LFU,1,1.5,,1,0,0
+mixed,20,RL-Windowed,LRU,1,3.433333333333333,,1,0,0
+mixed,20,RL-Windowed,LeCaR-inspired,1,2.6333333333333333,,1,0,0
+mixed,20,RL-Windowed,MRU,1,5.566666666666666,,1,0,0
+mixed,20,RL-Windowed,OPT,1,-31.733333333333334,,0,0,1
+mixed,20,RL-Windowed,RL-FixedCommit-20,1,-13.133333333333333,,0,0,1
+random,20,RL-FixedCommit-20,Best-fixed (hindsight),1,-2.5,,0,0,1
+random,20,RL-FixedCommit-20,FIFO,1,-0.36666666666666664,,0,0,1
+random,20,RL-FixedCommit-20,LFU,1,-1.1333333333333333,,0,0,1
+random,20,RL-FixedCommit-20,LRU,1,-0.3333333333333333,,0,0,1
+random,20,RL-FixedCommit-20,LeCaR-inspired,1,-0.26666666666666666,,0,0,1
+random,20,RL-FixedCommit-20,MRU,1,-2.5,,0,0,1
+random,20,RL-FixedCommit-20,OPT,1,-32.6,,0,0,1
+random,20,RL-FixedCommit-20,RL-Windowed,1,-1.0333333333333334,,0,0,1
+random,20,RL-Windowed,Best-fixed (hindsight),1,-1.4666666666666666,,0,0,1
+random,20,RL-Windowed,FIFO,1,0.6666666666666666,,1,0,0
+random,20,RL-Windowed,LFU,1,-0.1,,0,0,1
+random,20,RL-Windowed,LRU,1,0.7,,1,0,0
+random,20,RL-Windowed,LeCaR-inspired,1,0.7666666666666667,,1,0,0
+random,20,RL-Windowed,MRU,1,-1.4666666666666666,,0,0,1
+random,20,RL-Windowed,OPT,1,-31.566666666666666,,0,0,1
+random,20,RL-Windowed,RL-FixedCommit-20,1,1.0333333333333334,,1,0,0
+sequential,20,RL-FixedCommit-20,Best-fixed (hindsight),1,0.0,,0,1,0
+sequential,20,RL-FixedCommit-20,FIFO,1,19.0,,1,0,0
+sequential,20,RL-FixedCommit-20,LFU,1,19.0,,1,0,0
+sequential,20,RL-FixedCommit-20,LRU,1,19.0,,1,0,0
+sequential,20,RL-FixedCommit-20,LeCaR-inspired,1,19.0,,1,0,0
+sequential,20,RL-FixedCommit-20,MRU,1,0.0,,0,1,0
+sequential,20,RL-FixedCommit-20,OPT,1,0.0,,0,1,0
+sequential,20,RL-FixedCommit-20,RL-Windowed,1,0.6333333333333333,,1,0,0
+sequential,20,RL-Windowed,Best-fixed (hindsight),1,-0.6333333333333333,,0,0,1
+sequential,20,RL-Windowed,FIFO,1,18.366666666666667,,1,0,0
+sequential,20,RL-Windowed,LFU,1,18.366666666666667,,1,0,0
+sequential,20,RL-Windowed,LRU,1,18.366666666666667,,1,0,0
+sequential,20,RL-Windowed,LeCaR-inspired,1,18.366666666666667,,1,0,0
+sequential,20,RL-Windowed,MRU,1,-0.6333333333333333,,0,0,1
+sequential,20,RL-Windowed,OPT,1,-0.6333333333333333,,0,0,1
+sequential,20,RL-Windowed,RL-FixedCommit-20,1,-0.6333333333333333,,0,0,1

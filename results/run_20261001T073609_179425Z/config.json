@@ -1,0 +1,56 @@
+{
+  "config": {
+    "length": 3000,
+    "page_range": 100,
+    "episodes": 25,
+    "window": 50,
+    "lookback": 20,
+    "min_commit": 20
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "capacities": [
+    10,
+    20,
+    40
+  ],
+  "workloads": [
+    "sequential",
+    "random",
+    "looping",
+    "locality",
+    "mixed"
+  ],
+  "python": "3.11.9 (v3.11.9:de54cf5be3, Apr  2 2024, 07:12:50) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "source_sha256": {
+    "benchmark.py": "c1f4f9cd8460b15ccb78dccd9ad31c71f30950a0da2a9085618f0c2b0f336af9",
+    "evaluate.py": "2c7f42cb3b1bc0441ef9e7614d696e2659b1769a65bdf15d4b889862db9e6ffc",
+    "gui.py": "296f97751aa842b1af676e58648cde5d2ac537efb27e262cbbba7298c9bd769a",
+    "page_replacement/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "page_replacement/adaptive_simulator.py": "edcbd13c285b101d0940a0ba51fc3273aabc489176fbbd703c9082de5fd67a3e",
+    "page_replacement/algorithms.py": "6f7febb5a70cc467b90d607336be798014bb2b296d512f26b8279e1db449af5c",
+    "page_replacement/features.py": "66d27b4b240f434d5ded1d36e5112046d5ae09c198035db72d1385bf2bb9d8e8",
+    "page_replacement/lecar.py": "794b3ca357bd064fcc3b4434abf6731c9ed8c86e9a4144af80fd83ef65ac4884",
+    "page_replacement/rl_agent.py": "c3ba7fe240b6427e40b056358ece313aa20b3fd952455ee0331bfc748a58cd93",
+    "page_replacement/workloads.py": "3731b36cc8b6dda9703703ea238b47b4b1a3463b79c78f5addc50051ffac0062"
+  },
+  "started_utc": "2026-10-01T07:36:09.203790+00:00",
+  "status": "complete",
+  "command_arguments": [],
+  "evaluation_note": "Original algorithms and generators unchanged; deterministic traces repeat across seeds.",
+  "completed_trials": 150,
+  "result_rows": 1200,
+  "trials_with_training_overlap": 60,
+  "finished_utc": "2026-10-01T07:36:42.994176+00:00"
+}
